@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.top-space{
+/*   margin-bottom: 250px */
+}
+.banner {
+  background-color:#1d9bf0;
+  display: flex;
+  justify-content:space-between; 
+  margin-bottom: 55px;
+  margin-top: 75px;
+}
+.banner-text{
+  color: white;
+}
+
+.searcharea{
+/*   width: 50%; */
+  height: 55%;
+  display: flex;
+  justify-content:center; 
+  align-items:center; 
+
+  background-image: url(images/tangel.jpg);
+  background-size: contain;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.button-search{
+  display:flex;
+  justify-content:center; 
+  
+}
+
+.saito-rotate{
+  transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  position: absolute;
+  bottom:100px;
+ 
+  font-weight: 900;
+}
